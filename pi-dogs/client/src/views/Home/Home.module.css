@@ -1,0 +1,61 @@
+.loading {
+    color: rgb(148, 86, 6);
+    font-family: "Nova Mono";
+    font-size: 60px;
+    letter-spacing: 4.3px;
+    text-shadow: -4px 0 black, 0 8px black, 1px 0 black, 0 -1px black;
+  }
+
+.image {
+    margin-top: 100px;
+    width: 900px;
+    height: 240px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 0 90px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(88, 62, 4, 0.555),
+    rgba(172, 116, 12, 0.575)
+  );
+  padding: 15px;
+  width: 90%;
+  height: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 1px rgba(148, 86, 5, 0.651);
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nova Mono";
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  color: rgb(245, 216, 163);
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.filter select {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  background: rgba(255, 198, 93, 0.651);
+  margin: 0 0 0 10px;
+  font-family: "Nova Mono";
+  font-size: 15px;
+  color: rgb(114, 76, 7);
+}
+
+.filter select:hover {
+  background-color: rgba(255, 197, 130, 0.644);
+}

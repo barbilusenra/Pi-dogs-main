@@ -1,0 +1,48 @@
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Palanquin';
+    font-size: 20px;
+    font-weight: 500;
+    width: 35px;
+    height: 30px;
+    border: none;
+    margin-right:7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.384);
+    text-align: center;
+    background: linear-gradient(
+        to bottom right,
+        rgba(160, 93, 16, 0.781),
+        rgba(252, 177, 106, 0.767)
+        ); 
+    border-radius: 30px;
+}
+.number:hover{
+background: rgba(238, 138, 8, 0.877);
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:  white;
+}
+
+.active {
+    background: #fd7200f1;
+    font-weight: bold;
+  }

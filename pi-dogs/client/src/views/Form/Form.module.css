@@ -1,0 +1,220 @@
+.form {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../../contenidos/perrito.jpg");
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Palanquin';
+    color: #101010;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .contentForm {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 200px;
+    margin: 10px 15px 0px 15px;
+    background-color: rgba(204, 197, 197, 0.281);
+    border-radius: 7px;
+    border: 1px solid whitesmoke;
+  }
+  
+  .error {
+    color: rgb(206, 26, 26);
+    margin: 0px;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .inputNames {
+    padding: 5px 15px;
+    border-radius: 7px;
+    border: 0px;
+  }
+  
+  .input {
+    width: 60px;
+    padding: 5px 0px;
+    border-radius: 7px;
+    border: 0px;
+  }
+  
+  .label {
+    display: contents;
+    margin-bottom: 0.3rem;
+  }
+  
+  .ok {
+    color: #23832f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
+  
+  .select {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 7px;
+    border: 0px;
+    color: #101010;
+    margin: 0px;
+  }
+  
+  .contentSelect {
+    margin-top: 6px;
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+  }
+  
+  .titles {
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  .deletebutton {
+    border-radius: 50px;
+    font-size: 9px;
+    padding: 2px 5px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: #101010;
+  }
+  
+  .deletebutton:hover {
+    color: red;
+  }
+  
+  .uls {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .temps {
+    padding: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  
+  .buttonCreate {
+    --color: #22632b;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 7px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  .buttonCreate:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .buttonCreate:hover {
+    color: #fff;
+  }
+  
+  .buttonCreate:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .buttonCreate:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .buttonCreate:active:before {
+    background: #23832f;
+    transition: background 0s;
+  }
+  
+  .prev {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(226, 223, 217);
+    padding: 9px;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    background-color: #101010;
+    margin-top: 9px;
+  }
+  .prev:hover {
+    border: 1px solid #101010;
+    background-color: #f5f5f5;
+    color: #101010;
+  }
+  
+  @media (max-width: 900px) {
+    .contentForm {
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px 100px;
+      /* margin: 10px 15px 0px 15px; */
+      margin-left: 10px;
+      margin-right: 10px;
+  
+      background-color: rgba(204, 197, 197, 0.281);
+      border-radius: 7px;
+      border: 1px solid whitesmoke;
+    }
+  
+    .label2 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 470px) {
+    .contentForm {
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px 50px;
+      /* margin: 10px 15px 0px 15px; */
+      margin-left: 10px;
+      margin-right: 10px;
+  
+      background-color: rgba(204, 197, 197, 0.281);
+      border-radius: 7px;
+      border: 1px solid whitesmoke;
+    }
+  
+    .label2 {
+      display: none;
+    }
+  
+    .prev {
+      display: none;
+    }
+  }
